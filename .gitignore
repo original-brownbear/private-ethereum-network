@@ -1,0 +1,6 @@
+/node/genesis.json
+/node/util.sh
+/boot/genesis.json
+/boot/util.sh
+/miner/genesis.json
+/miner/util.sh

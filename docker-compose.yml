@@ -1,0 +1,12 @@
+version: "3"
+services:
+    boot:
+        build: ./boot
+    node:
+        build: ./node
+        links:
+            - "boot:boot"
+    miner:
+        build: ./miner
+        links:
+            - "boot:boot"
